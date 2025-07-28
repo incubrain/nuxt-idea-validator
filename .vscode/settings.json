@@ -1,6 +1,7 @@
 {
   // Disable the default formatter, use eslint instead
   "editor.formatOnSave": false,
+  "eslint.format.enable": true,
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
