@@ -1,6 +1,7 @@
 <template>
   <div>
-    Hello world
+    Hello from page
+    <TestComponent text="Hello from component" />
   </div>
 </template>
 

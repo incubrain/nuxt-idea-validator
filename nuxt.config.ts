@@ -1,14 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxt/scripts',
     '@nuxt/image',
-    '@nuxt/test-utils'
+    '@nuxt/test-utils',
   ],
+  devtools: { enabled: true },
 
   css: ['~/assets/css/main.css'],
 
@@ -16,6 +15,7 @@ export default defineNuxtConfig({
     // Homepage - Pre-rendered at build time (fastest loading)
     '/': { prerender: true },
   },
+  compatibilityDate: '2025-07-15',
 
   nitro: {
     // debug: true,
@@ -23,12 +23,6 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/'],
     },
-  },
-
-  icon: {
-    serverBundle: {
-      collections: ['lucide', 'mdi']
-    }
   },
 
   eslint: {
@@ -58,5 +52,12 @@ export default defineNuxtConfig({
       { name: 'IBM Plex Sans', provider: 'google' },
       { name: 'JetBrains Mono', provider: 'google' },
     ],
+  },
+
+  icon: {
+    serverBundle: {
+      // using full @iconify/json define collections to tree-shake
+      collections: ['lucide', 'mdi'],
+    },
   },
 })
