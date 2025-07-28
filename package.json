@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-idea-validator",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,19 +12,24 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@iconify/json": "^2.2.363",
-    "@nuxt/eslint": "1.7.1",
     "@nuxt/image": "1.10.0",
     "@nuxt/scripts": "0.11.10",
-    "@nuxt/test-utils": "3.19.2",
     "@nuxt/ui": "3.3.0",
     "@unhead/vue": "^2.0.3",
-    "eslint": "^9.0.0",
     "nuxt": "^4.0.1",
-    "tailwindcss": "^4.1.11",
-    "typescript": "^5.6.3",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@eslint/json": "^0.13.1",
+    "@iconify/json": "^2.2.363",
+    "@nuxt/eslint": "1.7.1",
+    "@nuxt/test-utils": "3.19.2",
+    "@vueuse/core": "^13.5.0",
+    "@vueuse/nuxt": "^13.5.0",
+    "eslint": "^9.0.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.6.3"
   },
   "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }

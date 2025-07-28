@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/image',
     '@nuxt/test-utils',
+    '@vueuse/nuxt',
   ],
   devtools: { enabled: true },
 

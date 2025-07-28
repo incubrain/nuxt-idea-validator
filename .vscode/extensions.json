@@ -4,6 +4,6 @@
     "dbaeumer.vscode-eslint",
     "bradlc.vscode-tailwindcss",
     "sdras.vue-vscode-snippets",
-    "ms-vscode.vscode-typescript-next",
+    "ms-vscode.vscode-typescript-next"
   ]
 }
